@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Inscription{% endblock %}
+
+{% block body %}
+    <h1>Inscrivez vous !</h1>
+    <br>
+    <form>
+        <label for="">Veuillez entrer votre nom de famille :</label>
+        <input type="text"><br>
+        <label for="">Veuillez entrer votre prénom :</label>
+        <input type="text"><br>
+        <label for="">Veuillez entrer votre email :</label>
+        <input type="email"><br>
+        <label for="">Veuillez entrer votre mot de passe :</label>
+        <input id="password1" type="password"><br>
+        <label for="">Veuillez confirmer votre mot de passe :</label>
+        <input id="password2" type="password"><br>
+        <button class="btn btn-light" type="submit">S'incrire</button>
+    </form>    
+    
+{% endblock %}
